@@ -1,0 +1,42 @@
+.box-menu {
+  width: 30px;
+  height: 700px;
+  background-color: rgb(92, 21, 92);
+  position: relative;
+}
+
+.menu-text {
+  position: absolute;
+  font-size: 11px;
+  color: white;
+  top: 300px;
+}
+
+.box-menu-clic {
+  opacity: 0;
+  width: 300px;
+  height: 700px;
+  background-color: rgb(92, 21, 92);
+}
+
+.box-menu:hover .box-menu-clic {
+  opacity: 1;
+}
+
+.box-menu:hover .menu-text {
+  opacity: 0;
+}
+
+.menu-tittle {
+  color: white;
+  font-size: 20px;
+}
+
+.menu-tittle:hover {
+  color: orange;
+}
+
+.menu-list {
+  padding-top: 150px;
+  padding-left: 80px;
+}
